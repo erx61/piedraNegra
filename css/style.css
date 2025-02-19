@@ -2,8 +2,8 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: var(--lwc-spacingNone, 0);
+    padding: var(--lwc-spacingNone, 0);
     /* background-color: black; */
 }
 body{
@@ -58,7 +58,7 @@ header{
 
 .nav__links li{
     display: inline-block;
-    padding: 0px 5rem;
+    padding: var(--lwc-spacingNone, 0px) 5rem;
 }
 
 
@@ -160,7 +160,7 @@ button:hover{
 /* Section Center */
 
 .sectionImg{
-    background-image: url(/img/img_IA.jpg);    
+    background-image: url(/wallpapers/wallSpace.jpg);
     background-size: cover;
     backdrop-filter: invert(80%);
     color: rgb(245, 236, 236);
@@ -312,7 +312,7 @@ button:hover{
 } 
 
 .boxM-g1-txt p{
-    padding: 0px 0px 10px 0px;
+    padding: 0 0 10px 0;
 }
 .boxM-g1-txt .tittle-alitas{
     padding-bottom: 20px;
@@ -329,7 +329,7 @@ div .flame{
     width: 20px;
     padding: 0px;
     box-shadow: none;
-    border-radius:0px;
+    border-radius:var(--lwc-spacingNone, 0px);
     align-items: right;
     /* border: 1px solid red; */
 }
