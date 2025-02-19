@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="icon" href="logos/piedraNegraIcon.jpg" type="img/x-icon" />
+   <link rel="stylesheet" href="./css/style.css" />
+   <title>Piedra Negra</title>
+</head>
+
+<body>
+   <div class="mainContainer">
+      <!-- <header> <img class="logo" src="logos/piedraNegraBlackLogo.jpg" alt="logo" />
+         <nav>
+            <ul class="nav__links">
+               <li><a href="">Inicio</a></li>
+               <li><a href="">Algo</a></li>
+               <li><a href="">Otro</a></li>
+            </ul>
+         </nav> <a class="cta" href="#"> <button>Contacto</button> </a>
+      </header> -->
+      <section class="sectionImg">
+         <div class="callUs">
+            <div class="titleCallUs"> Envios a domicilio </div>
+            <div class="div-num-row"> <img src="icons/whatsappIcon.png" alt=""> <a
+                  href="https://wa.me/5565196833">(55)65196833</a> </div>
+            <div class="div-num-row"> <img src="icons/phoneIcon.png" alt=""> <a href="tel:5641549168">5641549168</a>
+            </div>
+         </div>
+      </section>
+      <main>
+         <section class="sectorMenu">
+            <h1>Nuestro Menú</h1>
+         </section>
+
+         <section class="btns-menus">
+            <button class="btn-donBirria-Menu" id="donBirria-btn" onclick="showDonBirria()"></button>
+            <button class="btn-piedraNegra-Menu" id="piedraNegra-btn" onclick="showPiedraNegra()"></button>
+         </section>
+
+
+
+
+
+         <section id="donBirria-menu">
+            <!-- PARA LA FAMILIA  -->
+            <div class="subTittleHeader">
+               <h2>Para la Familia & Combos</h2>
+            </div>
+            <div class="cardsByTwo">
+               <div class="boxMenu-g"> <img src="birria_img/consomeBirria.jpg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Plato grande de Birria</h4>
+                        <h2>$130</h2>
+                        <p>Acompañado con 170g. de garbanzo.</p>
+                     </div>
+                     <div>
+                        <h4>Consomé de birria</h4>
+                        <h2>$30</h2>
+                        <p>500 ml de consome acompañando con garbanzo.</p>
+                     </div>
+                     <div>
+                        <h4>Kilo de birria</h4>
+                        <h2>$550</h2>
+                        <p>Incluye 2 litros de consomé tortillas, verduras y salsa.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="boxMenu-g"> <img src="birria_img/tacosBirria.jpg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Combo 1</h4>
+                        <h2>$110</h2>
+                        <p>3 TACOS SUAVES O SEMIDORADOS</p>
+                     </div>
+                     <div>
+                        <h4>Combo 2</h4>
+                        <h2>$135</h2>
+                        <p>QUESABIRRIA</p>
+                     </div>
+                     <div>
+                        <h4>Combo 3</h4>
+                        <h2>$110</h2>
+                        <p>GRINGA DE BIRRIA</p>
+                        <br>
+
+                        <div class="small-sign">
+                           <samp>Incluyen consomé y agua o refresco.</samp>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- LOS ESPECIALES -->
+            <div class="subTittleHeader">
+               <h2>Los especiales</h2>
+            </div>
+            <div class="cardsByTwo">
+               <div class="boxMenu-g"> 
+                  <img src="birria_img/birriamel.jpeg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Birriaquiles</h4>
+                        <h2>$130</h2>
+                        <p>Totopos bañados en salsa con 120g. de carne de birria. Acompañada con crema y queso.</p>
+                     </div>
+                     <div>
+                        <h4>Birriamen</h4>
+                        <h2>$140</h2>
+                        <p>Fideos hervidos en consomé de birria, servidos con
+                           120g. de birria. Acompañados con garbanzo y queso
+                           gratinado.
+                        </p>
+                     </div>
+                     <div>
+                        <h4>Tacos dorados de birria</h4>
+                        <h2>$115</h2>
+                        <p>Preparados con lechuga, crema y queso.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="boxMenu-g"> <img src="birria_img/quesabirria.jpg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Chilaquies con Arrachera</h4>
+                        <h2>$130</h2>
+                        <p>Totopos bañados en salsa con 20g. de arrachera.
+                           Acompañados con crema y queso.</p>
+                     </div>
+                     <div>
+                        <h4>Quesabirria</h4>
+                        <h2>$130</h2>
+                        <p>Tortillas de harina burrera preparada con
+                           frijoles, guacamole y queso manchego.</p>
+                     </div>
+                     <div>
+                        <h4>Gringa de birria.</h4>
+                        <h2>$70</h2>
+                        <p>Deliciosa tortilla de arina con birria y queso manchego.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- TACOS -->
+            <div class="subTittleHeader">
+               <h2>Tacos</h2>
+            </div>
+            <div class="cardsByTwo">
+               <div class="boxMenu-g"> <img src="birria_img/tacosArrachera.jpg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Tacos de suadero</h4>
+                        <h2>$30</h2>
+                        <p>Deliciosa tortilla de maiz con el mejor suadero.</p>
+                     </div>
+                     <div>
+                        <h4>Taco semidorado</h4>
+                        <h2>$30</h2>
+                        <p>Deliciosa tortilla de maiz semi-frita</p>
+                     </div>
+                     <div>
+                        <h4>Taco de birria en harina</h4>
+                        <h2>$35</h2>
+                        <p>Deliciosa tortilla de harina con birria.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="boxMenu-g"> <img src="birria_img/quesabirria.jpg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Taco de arrachera</h4>
+                        <h2>$30</h2>
+                        <p>Deliciosa tortilla de maiz con la mejor arrachera.</p>
+                     </div>
+                     <div>
+                        <h4>Taco de longaliza</h4>
+                        <h2>$30</h2>
+                        <p>Deliciosa tortilla de maiz con la mejor longaliza.</p>
+                     </div>
+                     <div>
+                        <h4>Gringa de birria.</h4>
+                        <h2>$70</h2>
+                        <p>Deliciosa tortilla de arina con birria y queso manchego.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+
+
+         <!-- <div id="divDon">Don Birria</div>
+         <div id="divPiedra">Piedra Negra</div> -->
+
+         <section id="piedraNegra-menu">
+
+
+            <div class="subTittleHeader">
+               <h2>Hot Dog & Snacks</h2>
+            </div>
+            <div class="cardsByTwo">
+               <div class="boxMenu-g"> <img src="img/piedraNegraHotDoc.jpeg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Hot Dog Classic</h4>
+                        <h2>$80</h2>
+                        <p>Preparado con salchicha junbo y tocino.</p>
+                     </div>
+                     <div>
+                        <h4>Hot Dog Hawaiano</h4>
+                        <h2>$89</h2>
+                        <p>Preparado con salchica jumbo, quesillo, piña asada y tocino.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="boxMenu-g"> <img src="img/friesChees.jpg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Papas a la francesa</h4>
+                        <h2>$60</h2>
+                        <p>Papa frita c/ queos & catsup</p>
+                     </div>
+                     <div>
+                        <h4>Papas Gajo</h4>
+                        <h2>$65</h2>
+                        <p>Papas fritas corte grueso.</p>
+                     </div>
+                     <div>
+                        <h4>Dedos de queso</h4>
+                        <h2>$70</h2>
+                        <p>Delicioso palitos de queso empanizados y fritos</p>
+                     </div>
+                     <div>
+                        <h4>Aros de cebolla</h4>
+                        <h2>$70</h2>
+                        <p>Delicioso Aros de Cebolla fritos</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="subTittleHeader">
+               <h2>Hamburgers</h2>
+            </div>
+            <!-- HAMBURGUER SECTION -->
+            <div class="cardsByTwo">
+               <div class="boxMenu-g"> <img src="img/hamburguer1.jpeg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Classica</h4>
+                        <h2>$85</h2>
+                        <p>Pan brioch, 150gr de carne de res y queso manchego.</p>
+                     </div>
+                     <div>
+                        <h4>Malú</h4>
+                        <h2>$99</h2>
+                        <p>Pan brioch, 150gr de carne de res, quesillo jamón y piña asada.</p>
+                     </div>
+                     <div>
+                        <h4>Monterrey</h4>
+                        <h2>$155</h2>
+                        <p>Pan brioch, 150gr de carne bañada en salsa BBQ, mix de queso, tocino y champiñones.</p>
+                     </div>
+                     <div>
+                        <h4>Mexicanisima</h4>
+                        <h2>$155</h2>
+                        <p>Pan brioch, 150gr de carne de res, quesillo, chirizo y guacamole.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="boxMenu-g"> <img src="img/hamburguer2.jpeg" class="imgMenu">
+                  <div class="boxM-g1-txt">
+                     <div>
+                        <h4>Crispy</h4>
+                        <h2>$99</h2>
+                        <p>Pan brioche, 150gr de pechuga de pollocrujiente, queso gratinado y aderezo de chipotle.</p>
+                     </div>
+                     <div>
+                        <h4>De Boneless</h4>
+                        <h2>$120</h2>
+                        <p>pan brioche, 150gr de boneless bañados en tus salsa favorita, mix de quesos y mostaza de
+                           miel.
+                        </p>
+                     </div>
+                     <div>
+                        <h4>Piedra Negra</h4>
+                        <h2>$145</h2>
+                        <p>Pan brioche, 200gr de carne de res, mix de queso, tocino, aros de cebolla y chimichurri.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- ALITAS Y BONELESS -->
+            <div class="subTittleHeader">
+               <h2>Alitas & Boneless</h2>
+            </div>
+            <section>
+               <!-- ALITAS Y BONELESS -->
+               <div class="cardsByTwo">
+                  <div class="boxMenu-g"> <img src="img/alitas1.jpeg" class="imgMenu">
+                     <div class="boxM-g1-txt">
+                        <div>
+                           <h4>Alitas 6pzs</h4>
+                           <h2>$85</h2>
+                           <p>Un aproximando de 150gr de alitas.</p>
+                        </div>
+                        <div>
+                           <h4>Alitas 8pzs</h4>
+                           <h2>$99</h2>
+                           <p>Un aproximando de 200gr de alitas.</p>
+                        </div>
+                        <div>
+                           <h4>Alitas 10pzs</h4>
+                           <h2>$155</h2>
+                           <p>Un aproximando de 250gr de alitas.</p>
+                        </div>
+                        <div>
+                           <h4>Boneless</h4>
+                           <h2>$105</h2>
+                           <p>240gr de bolitas de pollo.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="boxMenu-g"> <img src="img/alitas2.jpeg" class="imgMenu">
+                     <div class="boxM-g1-txt">
+                        <div>
+                           <div class="tittle-alitas">
+                              <h3>Elige el sabor de tus alitas</h3>
+                           </div>
+                           <div>
+                              <p class="menu-picante" style="margin-right: 1rem;">Mango Abanero</p>
+                              <img src="/img/flame.gif" class="flame">
+                              <img src="/img/flame.gif" class="flame">
+                              <img src="/img/flame.gif" class="flame">
+                           </div>
+                           <div>
+                              <p class="menu-picante" style="margin-right: 1rem;">Red Hot (Búfalo)</p>
+                              <img src="/img/flame.gif" class="flame">
+                              <img src="/img/flame.gif" class="flame">
+                           </div>
+                           <div>
+                              <p class="menu-picante" style="margin-right: 85px;">Cajún</p>
+                              <img src="/img/flame.gif" class="flame">
+                           </div>
+                           <div>
+                              <p class="menu-picante" style="margin-right: 55px;">Tamarindo</p>
+                              <img src="/img/flame.gif" class="flame">
+                           </div>
+                           <div>
+                              <p class="menu-picante" style="margin-right: 87px;">Cajún</p>
+                              <img src="/img/sweet.gif" class="flame">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section>
+               <div class="subTittleHeader">
+                  <h2>Tacos & Extras</h2>
+               </div>
+               <!-- TACOS Y EXTRAS -->
+               <div class="cardsByTwo">
+                  <div class="boxMenu-g"> <img src="img/tacoArrachera.jpeg" class="imgMenu">
+                     <div class="boxM-g1-txt">
+                        <div>
+                           <h4>Taco de Arrachera</h4>
+                           <h2>$30</h2>
+                           <p>Deliciosa tortilla con aprox. 10gr de arrachera.</p>
+                        </div>
+                        <div>
+                           <h4>Taco de longaniza</h4>
+                           <h2>$30</h2>
+                           <p>Deliciosa tortilla con aprox. 10gr de longaniza.</p>
+                        </div>
+                        <div>
+                           <h4>Taco de campechano</h4>
+                           <h2>$30</h2>
+                           <p>Deliciosa tortilla con longaniza y arrachera.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="boxMenu-g"> <img src="img/extras.jpg" class="imgMenu">
+                     <div class="boxM-g1-txt">
+                        <div>
+                           <h4>Crispy</h4>
+                           <h2>$99</h2>
+                           <p>Pan brioche, 150gr de pechuga de pollocrujiente, queso gratinado y aderezo de chipotle.
+                           </p>
+                        </div>
+                        <div>
+                           <h4>De Boneless</h4>
+                           <h2>$120</h2>
+                           <p>pan brioche, 150gr de boneless bañados en tus salsa favorita, mix de quesos y mostaza de
+                              miel. </p>
+                        </div>
+                        <div>
+                           <h4>Piedra Negra</h4>
+                           <h2>$145</h2>
+                           <p>Pan brioche, 200gr de carne de res, mix de queso, tocino, aros de cebolla y chimichurri.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </section>
+         <section id="donBirria-menu">
+
+         </section>
+      </main>
+      <footer>
+         <div class="group1">
+            <div class="box">
+               <h3>About Us</h3>
+               <p> Dictumst molestie praesent habitasse at parturient tempus facilisis, tortor ullamcorper sociosqu
+                  vivamus platea purus rutrum sem, per pharetra fringilla malesuada imperdiet porttitor.Nisl ultricies
+                  sodales ad blandit himenaeos cras, vel class. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, quis. </p>
+            </div>
+            <div class="box">
+               <h3>Redes</h3>
+               <ul class="icon__links">
+                  <li> <a href="#"><img src="logos/instaIcon.jpg" alt="" class="logoLink" /></a> </li>
+                  <li> <a href="#"><img src="logos/facebookIcon.jpg" class="logoLink" /></a> </li>
+               </ul>
+            </div>
+         </div>
+         <div class="group2">
+            <p>Copyright 2025 © Piedra Negra Grill | Todos los derechos reservados.</p>
+         </div>
+      </footer>
+      <script src="scripts/main.js"></script>
+</body>
+
+</html>
