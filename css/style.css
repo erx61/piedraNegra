@@ -96,10 +96,10 @@ button:hover{
 }
 
 .btn-donBirria-Menu{
-    background-image: url(/logos/donBirriaIcon.jpg);    
+    background-image: url(/btn_img/donbirriaBtnImg.jpg);
 }
 .btn-piedraNegra-Menu{
-    background-image: url(/logos/piedraNegraBlackLogo.jpg);
+    background-image: url(/btn_img/piedraNegraBtnImg.jpg);
 }
 
 
@@ -161,6 +161,7 @@ button:hover{
 
 .sectionImg{
     background-image: url(/wallpapers/wallSpace.jpg);
+
     background-size: cover;
     backdrop-filter: invert(80%);
     color: rgb(245, 236, 236);
