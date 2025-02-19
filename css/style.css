@@ -96,10 +96,10 @@ button:hover{
 }
 
 .btn-donBirria-Menu{
-    background-image: url(/btn_img/donbirriaBtnImg.jpg);
+    background-image: url("/btn_img/donbirriaBtnImg.jpg");
 }
 .btn-piedraNegra-Menu{
-    background-image: url(/btn_img/piedraNegraBtnImg.jpg);
+    background-image: url("/btn_img/piedraNegraBtnImg.jpg");
 }
 
 
@@ -160,7 +160,7 @@ button:hover{
 /* Section Center */
 
 .sectionImg{
-    background-image: url(/wallpapers/wallSpace.jpg);
+    background-image: url("/wallpapers/wallSpace.jpg");
 
     background-size: cover;
     backdrop-filter: invert(80%);
