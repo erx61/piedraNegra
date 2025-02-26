@@ -1,6 +1,16 @@
 console.log('Running');
-var menuType = false;
 
+
+const d = new Date();
+let hour = d.getHours();
+// console.log('time -> ' + hour);
+
+var menuType = hour > 7 && hour < 15 ? false : true;
+// console.log('menuType -> ' +menuType);
+
+
+
+                // MENU PIEDRA NEGRA
 if(menuType){
     document.getElementById("piedraNegra-menu").style.display='block';
     // var piedraNegraMenu = document.getElementById("piedraNegra-menu");
@@ -59,6 +69,25 @@ function showDonBirria(){
     piedraNegraBtn.style.borderRadius = "30%";
     piedraNegraBtn.style.border = "5px solid red";    
     document.getElementById("donBirria-menu").style.transition = "all 20s";
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
 
 
