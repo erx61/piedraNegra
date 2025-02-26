@@ -12,14 +12,6 @@ body{
     background-color: hwb(0 100% 0%);
 }
 
-li,a,button{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
-
 header{
     display: flex;
     justify-content: space-between;
@@ -356,7 +348,7 @@ section .thirddiv{
     width: 95%;
     margin: auto;
 } */
-.subTittleHeaderDrinks h2{
+.subTittleHeaderSmaller h2{
     text-decoration: underline;
     font-size: 29px;
     font-style: italic;
@@ -374,7 +366,7 @@ section .thirddiv{
 }
 
 
-.drinkSection{
+.smallerSection{
     width: 90%;
     margin: auto;
 
@@ -414,12 +406,21 @@ section .thirddiv{
     overflow: hidden;
   }
 
+  .comeToMeetUs{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
 
+}
+
+.comeToMeetUs h2{
+    width: 100%;
+
+}
   
 /* ACCORDION FINISHED */
-
-
-
 /*              MEDIA           */
 @media screen and (max-width:900px){
     footer .group1{
@@ -454,30 +455,21 @@ section .thirddiv{
         padding: 4px;
         width: 120px;
         border-radius: 30px;
-        /* border: 2px solid red; */
     }
     
     .boxM-g1-txt h4{
         font-size: 17px;
-    } 
-    /* .boxM-g1-txt h2{
-        font-size: 15px;
-        text-align:right;
-    } */
+    }
     .boxMenu-g{
-        /* border: 2px solid red; */
         margin: 10px 5px;
     }
     .boxM-g1-txt{
-        /* border: 2px solid red; */
         margin-left: 30%;
     }
 }
 
 @media screen and (max-width:400px){
     .boxM-g1-txt{
-        /* border: 2px solid red; */
         margin-left: 40%;
-        /* text-align: justify; */
     }
 }
